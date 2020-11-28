@@ -228,7 +228,7 @@ hr{
 }
 .cir .feat img{
 	border:1px solid #337ab7;
-	border-radius:100%;
+	border:1px solid black;
 	width:20%;
 }
 .cir .feat h2,h1{
@@ -324,7 +324,7 @@ hr{
 }
 .cir .feat img{
 	border:1px solid #337ab7;
-	border-radius:100%;
+	border:1px solid black;
 	width:20%;
 }
 .cir .feat h2,h1{
