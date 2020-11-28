@@ -52,7 +52,7 @@ body{
 
 /*End header*/
 .home{
-background-image:url('../imv/a2.jpg');
+background-image:url('a2.jpg');
 background-size:100% 100%;
 background-repeat:no-repeat;
 width:100%;
