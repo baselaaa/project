@@ -52,7 +52,7 @@ body{
 
 /*End header*/
 .home{
-background-image:url('a2.jpg');
+background-image:url('../imv/a2.jpg');
 background-size:100% 100%;
 background-repeat:no-repeat;
 width:100%;
@@ -97,7 +97,7 @@ hr{
 	color:#eaeaff;
 	text-align:center;
 	background-color:#9999ff;
-	border-radius:50%;
+	border-radius:30%;
 }
 .features .feat{
     float: left;
@@ -119,9 +119,8 @@ hr{
     overflow: hidden;
     padding-top: 30px;
     padding-bottom: 30px;
-	background-color:#1e1e33;
+	background-color:#2b4942;
 	text-align:center;
-	border-radius:50%;
 }
 .cir .feat h2,h1{
 	color:#fff;
@@ -136,6 +135,8 @@ footer{
 	padding:15px;
 	text-align:center;
 	font-size:20px;
+	background-color:#14352e;
+	color:#ffffff;
 }
 
 
@@ -219,7 +220,7 @@ hr{
     padding-top: 30px;
     padding-bottom: 30px;
 	text-align:center;
-	text-align:center;
+	background-color:#2b4942;
 }
 .cir .feat{
     float: left;
@@ -228,7 +229,7 @@ hr{
 }
 .cir .feat img{
 	border:1px solid #337ab7;
-	border:1px solid black;
+	border-radius:100%;
 	width:20%;
 }
 .cir .feat h2,h1{
@@ -256,7 +257,9 @@ footer{
 
 /*Tablet*/
 @media screen and (max-width:761px){
-
+.home{
+	height:450px;
+}
 .container{
     width: auto;
     margin: auto;
@@ -315,16 +318,14 @@ hr{
     padding-top: 30px;
     padding-bottom: 30px;
 	text-align:center;
-	text-align:center;
 }
 .cir .feat{
-    float: left;
     width: 90%;
     height:auto;
 }
 .cir .feat img{
 	border:1px solid #337ab7;
-	border:1px solid black;
+	border-radius:100%;
 	width:20%;
 }
 .cir .feat h2,h1{
